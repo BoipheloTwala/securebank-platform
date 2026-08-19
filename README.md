@@ -42,11 +42,31 @@ VITE_API_URL=http://localhost:3000
 VITE_ENABLE_MOCK_DATA=false
 ```
 
+### Application modules 
+
+| Module | Capability |
+|--------|------------|
+| **Auth & RBAC** | Login/logout, JWT access + refresh, role-based navigation |
+| **Dashboard** | KPIs, risk trend (6 months), compliance by framework, activity feed |
+| **Risks** | Full CRUD, filters, heat map, severity scoring |
+| **Controls** | Framework controls, effectiveness, risk linking |
+| **Evidence** | Multipart upload/download, approve/review workflow |
+| **Reports** | Generate, poll to READY, download |
+
+### Roles & access
+
+| Role | Sees |
+|------|------|
+| `ADMIN` | Everything |
+| `ANALYST` | Dashboard, Risks, Evidence |
+| `GRC_ANALYST` | Dashboard, Risks, Controls, Reports |
+| `AUDITOR` | Dashboard, Evidence, Reports |
+
 ### Demo accounts
 
 | Role | Email | Password |
 |------|-------|----------|
-| Administrator | `admin@securebank.com` | `SecurePass1@` |
-| Security Analyst | `analyst@securebank.com` | `SecurePass1@` |
-| GRC Analyst | `grc@securebank.com` | `SecurePass1@` |
-| Auditor | `auditor@securebank.com` | `SecurePass1@` |
+| Administrator | `admin@securebank.com` | `Admin@SecureBank1!` |
+| Security Analyst | `analyst@securebank.com` | `Analyst@SecureBank1!` |
+| GRC Analyst | `grc@securebank.com` | `GrcAnalyst@SecureBank1!` |
+| Auditor | `auditor@securebank.com` | `Auditor@SecureBank1!` |
