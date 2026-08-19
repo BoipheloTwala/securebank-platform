@@ -42,11 +42,11 @@ VITE_API_URL=http://localhost:3000
 VITE_ENABLE_MOCK_DATA=false
 ```
 
-## Deployment
+### Demo accounts
 
-Deployed on **Vercel**. Environment variables set in the Vercel dashboard:
-
-| Variable | Value |
-|---|---|
-| `VITE_API_URL` | Railway backend URL |
-| `VITE_ENABLE_MOCK_DATA` | `false` |
+| Role | Email | Password |
+|------|-------|----------|
+| Administrator | `admin@securebank.com` | `SecurePass1@` |
+| Security Analyst | `analyst@securebank.com` | `SecurePass1@` |
+| GRC Analyst | `grc@securebank.com` | `SecurePass1@` |
+| Auditor | `auditor@securebank.com` | `SecurePass1@` |
